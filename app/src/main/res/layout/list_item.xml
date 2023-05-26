@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/img1"
+        android:src="@drawable/account"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/li1"
+        android:layout_toRightOf="@id/img1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="14pt"
+            android:layout_margin="5dp"
+            android:id="@+id/txt1"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textSize="14pt"
+            android:layout_margin="5dp"
+            android:id="@+id/txt2"
+         ></TextView>
+    </LinearLayout>
+</RelativeLayout>
